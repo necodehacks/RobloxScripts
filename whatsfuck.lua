@@ -85,7 +85,7 @@ function VioletSyn:createWindow(options)
     local title = options.Title or "Violet Syn"
 
     task.wait(3)
-    createNotification("Violet Syn Loaded • Join discord.gg/Ty5r4A398J", 7)
+    createNotification("by @astromacc < telegram buy premium", 7)
 
     local screenGui = Instance.new("ScreenGui")
     screenGui.Name = "VioletSynGui"
@@ -93,7 +93,7 @@ function VioletSyn:createWindow(options)
     screenGui.Parent = gui
 
     local mainFrame = Instance.new("Frame")
-    mainFrame.Size = UDim2.new(0, 220, 0, 40)
+    mainFrame.Size = UDim2.new(0, 320, 0, 40)
     mainFrame.Position = UDim2.new(0.01, 0, 0.05, 0)
     mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
     mainFrame.BackgroundTransparency = 0.1
