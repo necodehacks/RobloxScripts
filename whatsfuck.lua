@@ -1,24 +1,3 @@
--- ==================== CUSTOMIZABLE TOP SECTION ====================
--- You can change or remove ANY of these prints except the credit line below
-
-print([[
-____   ____.__       .__          __      ______________.___._______   
-\   \ /   /|__| ____ |  |   _____/  |_   /   _____/\__  |   |\      \  
- \   Y   / |  |/  _ \|  | _/ __ \   __\  \_____  \  /   |   |/   |   \ 
-  \     /  |  (  <_> )  |_\  ___/|  |    /        \ \____   /    |    \
-   \___/   |__|\____/|____/\___  >__|   /_______  / / ______\____|__  /
-                               \/               \/  \/              \/ 
-]])
-
-print("Violet Syn has been loaded!")
-print("Made by Waffley.")
-print("Join discord: https://discord.gg/Ty5r4A398J")
-
--- THIS LINE CANNOT BE CHANGED OR REMOVED - CREDIT STAYS FOREVER
-print("UI Library by Waffley!")
-
--- ==================================================================
-
 local VioletSyn = {}
 VioletSyn.Windows = {}
 
@@ -52,7 +31,7 @@ local function createNotification(text, duration)
     corner.Parent = frame
 
     local stroke = Instance.new("UIStroke")
-    stroke.Color = Color3.fromRGB(140, 100, 255)
+    stroke.Color = Color3.fromRGB(93, 118, 203)
     stroke.Thickness = 2
     stroke.Parent = frame
 
