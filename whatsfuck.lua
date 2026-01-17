@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 
 local player = Players.LocalPlayer
 local gui = player:WaitForChild("PlayerGui")
-gui.ResetOnSpawn = false
+
 
 -- Notification Function
 local function createNotification(text, duration)
@@ -71,7 +71,7 @@ function VioletSyn:createWindow(options)
     screenGui.Name = "VioletSynGui"
     screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     screenGui.Parent = gui
-
+screenGui.ResetOnSpawn = false
     local mainFrame = Instance.new("Frame")
     mainFrame.Size = UDim2.new(0, 320, 0, 40)
     mainFrame.Position = UDim2.new(0.01, 0, 0.05, 0)
