@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 
 local player = Players.LocalPlayer
 local gui = player:WaitForChild("PlayerGui")
-gui.ResetOnspawn = false
+gui.ResetOnSpawn = false
 
 -- Notification Function
 local function createNotification(text, duration)
