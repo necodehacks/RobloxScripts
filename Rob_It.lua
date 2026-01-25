@@ -42,6 +42,13 @@ nga2:Destroy()
 end
 end)
 
+MainTab:CreateButton("Delete Vault", "Удаляет Vault с Bank.", function()
+for _, vault in pairs(game.workspace.Map.Others.Special.VaultGame:GetChildren()) do
+vault:Destroy()
+end
+end)
+
+
 MainTab:CreateButton("Delete Cameras", "Удаляет все камеры.", function()
 for _, nga22 in pairs(game.Workspace.Map:FindFirstChild("Cameras"):GetChildren()) do
 nga22:Destroy()
