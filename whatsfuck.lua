@@ -86,7 +86,7 @@ screenGui.ResetOnSpawn = false
     mainCorner.Parent = mainFrame
 
     local mainStroke = Instance.new("UIStroke")
-    mainStroke.Color = Color3.fromRGB(140, 100, 255)
+    mainStroke.Color = Color3.fromRGB(238, 196, 182)
     mainStroke.Thickness = 1.5
     mainStroke.Transparency = 0.4
     mainStroke.Parent = mainFrame
@@ -120,7 +120,7 @@ screenGui.ResetOnSpawn = false
     discordBtn.Position = UDim2.new(1, -80, 0.5, -15)
     discordBtn.BackgroundTransparency = 1
     discordBtn.Image = "rbxassetid://9471409169"
-    discordBtn.ImageColor3 = Color3.fromRGB(140, 100, 255)
+    discordBtn.ImageColor3 = Color3.fromRGB(238, 196, 182)
     discordBtn.ScaleType = Enum.ScaleType.Fit
     discordBtn.Parent = titleBar
 
@@ -251,7 +251,7 @@ screenGui.ResetOnSpawn = false
         toggle.MouseButton1Click:Connect(function()
             state = not state
             TweenService:Create(circle, TweenInfo.new(0.2), {Position = state and UDim2.new(1, -25, 0.5, -11) or UDim2.new(0, 3, 0.5, -11)}):Play()
-            TweenService:Create(toggle, TweenInfo.new(0.2), {BackgroundColor3 = state and Color3.fromRGB(140, 100, 255) or Color3.fromRGB(50, 50, 50)}):Play()
+            TweenService:Create(toggle, TweenInfo.new(0.2), {BackgroundColor3 = state and Color3.fromRGB(238, 196, 182) or Color3.fromRGB(50, 50, 50)}):Play()
             if callback then callback(state) end
         end)
     end
@@ -283,7 +283,7 @@ screenGui.ResetOnSpawn = false
         barCorner.Parent = sliderBar
 
         local fill = Instance.new("Frame")
-        fill.BackgroundColor3 = Color3.fromRGB(140, 100, 255)
+        fill.BackgroundColor3 = Color3.fromRGB(238, 196, 182)
         fill.Parent = sliderBar
 
         local fillCorner = Instance.new("UICorner")
