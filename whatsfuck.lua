@@ -238,7 +238,7 @@ screenGui.ResetOnSpawn = false
         toggleCorner.Parent = toggle
 
         local circle = Instance.new("Frame")
-        circle.Size = UDim2.new(0, 22, 0, 22)
+        circle.Size = UDim2.new(0, 11, 0, 11)
         circle.Position = UDim2.new(0, 3, 0.5, -11)
         circle.BackgroundColor3 = Color3.new(1, 1, 1)
         circle.Parent = toggle
