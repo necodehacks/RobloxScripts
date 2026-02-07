@@ -242,7 +242,7 @@ screenGui.ResetOnSpawn = false
         circle.Position = UDim2.new(0, 3, 0.5, -11)
         circle.BackgroundColor3 = Color3.new(1, 1, 1)
         circle.Parent = toggle
-        circle.BackgroundTransperency = 0.5
+        circle.BackgroundTransparency = 0.5
 
         local circleCorner = Instance.new("UICorner")
         circleCorner.CornerRadius = UDim.new(1, 0)
