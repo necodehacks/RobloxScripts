@@ -64,7 +64,7 @@ function VioletSyn:createWindow(options)
     options = options or {}
     local title = options.Title or "Violet Syn"
 
-    task.wait(3)
+
     createNotification("by @astromacc < telegram buy premium", 7)
 
     local screenGui = Instance.new("ScreenGui")
