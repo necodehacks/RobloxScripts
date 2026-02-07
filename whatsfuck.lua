@@ -238,10 +238,11 @@ screenGui.ResetOnSpawn = false
         toggleCorner.Parent = toggle
 
         local circle = Instance.new("Frame")
-        circle.Size = UDim2.new(0, 11, 0, 11)
+        circle.Size = UDim2.new(0, 22, 0, 22)
         circle.Position = UDim2.new(0, 3, 0.5, -11)
         circle.BackgroundColor3 = Color3.new(1, 1, 1)
         circle.Parent = toggle
+        circle.BackgroundTransperency = 0.5
 
         local circleCorner = Instance.new("UICorner")
         circleCorner.CornerRadius = UDim.new(1, 0)
@@ -250,8 +251,8 @@ screenGui.ResetOnSpawn = false
         local state = false
         toggle.MouseButton1Click:Connect(function()
             state = not state
-            TweenService:Create(circle, TweenInfo.new(0.2), {Position = state and UDim2.new(1, -25, 0.5, -11) or UDim2.new(0, 3, 0.5, -11)}):Play()
-            TweenService:Create(toggle, TweenInfo.new(0.2), {BackgroundColor3 = state and Color3.fromRGB(238, 196, 182) or Color3.fromRGB(50, 50, 50)}):Play()
+            TweenService:Create(circle, TweenInfo.new(0.4), {Position = state and UDim2.new(1, -25, 0.5, -11) or UDim2.new(0, 3, 0.5, -11)}):Play()
+            TweenService:Create(toggle, TweenInfo.new(0.4), {BackgroundColor3 = state and Color3.fromRGB(238, 196, 182) or Color3.fromRGB(50, 50, 50)}):Play()
             if callback then callback(state) end
         end)
     end
