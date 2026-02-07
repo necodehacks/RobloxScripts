@@ -141,7 +141,7 @@ screenGui.ResetOnSpawn = false
     arrowBtn.Position = UDim2.new(1, -40, 0, 0)
     arrowBtn.BackgroundTransparency = 1
     arrowBtn.Text = "⤵"
-    arrowBtn.TextColor3 = Color3.fromRGB(140, 100, 255)
+    arrowBtn.TextColor3 = Color3.fromRGB(238, 196, 182)
     arrowBtn.TextSize = 24
     arrowBtn.Font = Enum.Font.SourceSansBold
     arrowBtn.Parent = titleBar
@@ -153,7 +153,7 @@ screenGui.ResetOnSpawn = false
     scrollingFrame.BackgroundTransparency = 1
     scrollingFrame.BorderSizePixel = 0
     scrollingFrame.ScrollBarThickness = 4
-    scrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(140, 100, 255)
+    scrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(238, 196, 182)
     scrollingFrame.Parent = mainFrame
 
     local listLayout = Instance.new("UIListLayout")
