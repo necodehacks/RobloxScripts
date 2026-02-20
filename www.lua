@@ -282,18 +282,18 @@ local Library do
     }
 
     local Themes = {
-    ["Preset"] = {
-        ["Background"] = FromRGB(235, 245, 255),    
-        ["Inline"] = FromRGB(250, 250, 255),          
-        ["Outline"] = FromRGB(200, 225, 245),         
-        ["Page Background"] = FromRGB(240, 248, 255), 
-        ["Border"] = FromRGB(0, 160, 200),         
-        ["Accent"] = FromRGB(0, 140, 200),            
-        ["Text Border"] = FromRGB(180, 210, 230),     
-        ["Light Accent"] = FromRGB(100, 180, 230),  
-        ["Element"] = FromRGB(245, 250, 255), 
-        ["Text"] = FromRGB(20, 40, 70), 
-        ["Inactive Text"] = FromRGB(130, 150, 180)
+    ["Dark Ocean"] = {
+        ["Background"] = FromRGB(10, 20, 35),      
+        ["Inline"] = FromRGB(20, 35, 55),          
+        ["Outline"] = FromRGB(0, 40, 80),          
+        ["Page Background"] = FromRGB(15, 25, 45),   
+        ["Border"] = FromRGB(0, 150, 200),          
+        ["Accent"] = FromRGB(0, 180, 220),         
+        ["Text Border"] = FromRGB(0, 0, 20),         
+        ["Light Accent"] = FromRGB(64, 164, 223),   
+        ["Element"] = FromRGB(12, 25, 45),         
+        ["Text"] = FromRGB(220, 240, 255),            
+        ["Inactive Text"] = FromRGB(140, 170, 200)  
     }
 }
 
