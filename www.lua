@@ -290,7 +290,7 @@ local Library do
             ["Border"] = FromRGB(31, 25, 36),
             ["Accent"] = FromRGB(100, 149, 237),
             ["Text Border"] = FromRGB(0, 0, 0),
-            ["Light Accent"] = FromRGB(139, 94, 216),
+            ["Light Accent"] = FromRGB(93, 118, 203),
             ["Element"] = FromRGB(39, 39, 44),
             ["Text"] = FromRGB(230, 230, 230),
             ["Inactive Text"] = FromRGB(185, 185, 185)
