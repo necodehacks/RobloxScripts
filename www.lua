@@ -282,20 +282,20 @@ local Library do
     }
 
     local Themes = {
-        ["Preset"] = {
-            ["Background"] = FromRGB(39, 39, 44),
-            ["Inline"] = FromRGB(61, 60, 65),
-            ["Outline"] = FromRGB(61, 60, 65),
-            ["Page Background"] = FromRGB(49, 48, 52),
-            ["Border"] = FromRGB(203, 19, 17),
-            ["Accent"] = FromRGB(100, 149, 237),
-            ["Text Border"] = FromRGB(0, 0, 0),
-            ["Light Accent"] = FromRGB(93, 118, 203),
-            ["Element"] = FromRGB(39, 39, 44),
-            ["Text"] = FromRGB(230, 230, 230),
-            ["Inactive Text"] = FromRGB(185, 185, 185)
-        }
+    ["Preset"] = {
+        ["Background"] = FromRGB(235, 245, 255),    
+        ["Inline"] = FromRGB(250, 250, 255),          
+        ["Outline"] = FromRGB(200, 225, 245),         
+        ["Page Background"] = FromRGB(240, 248, 255), 
+        ["Border"] = FromRGB(0, 160, 200),         
+        ["Accent"] = FromRGB(0, 140, 200),            
+        ["Text Border"] = FromRGB(180, 210, 230),     
+        ["Light Accent"] = FromRGB(100, 180, 230),  
+        ["Element"] = FromRGB(245, 250, 255), 
+        ["Text"] = FromRGB(20, 40, 70), 
+        ["Inactive Text"] = FromRGB(130, 150, 180)
     }
+}
 
     Library.Theme = TableClone(Themes["Preset"])
 
