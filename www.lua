@@ -287,7 +287,7 @@ local Library do
             ["Inline"] = FromRGB(61, 60, 65),
             ["Outline"] = FromRGB(61, 60, 65),
             ["Page Background"] = FromRGB(49, 48, 52),
-            ["Border"] = FromRGB(31, 25, 36),
+            ["Border"] = FromRGB(203, 19, 17),
             ["Accent"] = FromRGB(100, 149, 237),
             ["Text Border"] = FromRGB(0, 0, 0),
             ["Light Accent"] = FromRGB(93, 118, 203),
