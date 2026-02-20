@@ -282,7 +282,7 @@ local Library do
     }
 
     local Themes = {
-    ["Dark Ocean"] = {
+    ["Preset"] = {
         ["Background"] = FromRGB(10, 20, 35),      
         ["Inline"] = FromRGB(20, 35, 55),          
         ["Outline"] = FromRGB(0, 40, 80),          
