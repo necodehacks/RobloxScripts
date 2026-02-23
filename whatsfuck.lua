@@ -343,10 +343,13 @@ screenGui.ResetOnSpawn = false
         btn.TextSize = 16
         btn.Font = Enum.Font.SourceSansSemibold
         btn.Parent = scrollingFrame
+        btn.AutoButtonColor = false
 
         local btnCorner = Instance.new("UICorner")
         btnCorner.CornerRadius = UDim.new(0, 12)
         btnCorner.Parent = btn
+
+        
 
         btn.MouseButton1Click:Connect(callback or function() end)
     end
